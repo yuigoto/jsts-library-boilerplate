@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap");
+
+* {
+  &,
+  &:before,
+  &:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+}
+
+html,
+body {
+  font-family: "Source Sans Pro", "Open Sans", "Segoe UI", Arial, Helvetica, sans-serif;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-size: 100%;
+}
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  padding: 2rem 2rem;
+  display: block;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h1,
+p {
+  margin: 0 0 1rem;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.created {
+  color: #339a5f;
+  font-weight: 600;
+}
